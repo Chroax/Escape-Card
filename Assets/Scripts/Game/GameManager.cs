@@ -12,11 +12,14 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     public GameObject cardListHolder;
     public CardDetailSO selectedCard;
     public GameObject panelChoiceCard;
+
     public CardDetailSO selectedCombineCard1;
     public CardDetailSO selectedCombineCard2;
     public bool choiceCombineCard1 = false;
     public bool choiceCombineCard2 = false;
+
     public Canvas canvas;
+    public Sprite cardHolder;
 
     // Each Panel reference
     public GameObject hiddenCardImageSelected;
@@ -25,6 +28,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     public GameObject unlockCardPanel;
     public GameObject combineCardImageSelected1;
     public GameObject combineCardImageSelected2;
+    public GameObject combineCardProducedImage;
     public GameObject combineCardPanel;
 
     // Keeps track which panel open
