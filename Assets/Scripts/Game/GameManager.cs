@@ -31,6 +31,9 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     public GameObject combineCardProducedImage;
     public GameObject combineCardPanel;
 
+    public GameObject mapCardPanel;
+    public GameObject machineCardPanel;
+    
     // Keeps track which panel open
     public ActivePanel activePanel = ActivePanel.main;
 

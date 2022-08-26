@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayFabEditorPrefsSO
   m_EditorClassIdentifier: 
   DevAccountEmail: keyisakris@gmail.com
-  DevAccountToken: 4jpa4jz4qqcrtkp6ak5w7h9p5kna5bdhhhmyydbbneo1o5mxyjwxi4a9gjrpuq8tzftwig4hqt75edizwzu9qqgmimczmwgwscmxahh6xpob4twj6gtamhikf6ihrsqs6yfootw1heeza7ty848hrfmh1b4qaz6ypidpzfw7edhjodqsngf4y5wakknnohbbm5c36omp
+  DevAccountToken: 
   SelectedStudio: 
   SdkPath: 
   EdExPath: 
   LocalCloudScriptPath: 
-  PanelIsShown: 0
+  PanelIsShown: 1
   curMainMenuIdx: 0
   curSubMenuIdx: 0
