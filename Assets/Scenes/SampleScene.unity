@@ -438,7 +438,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015259, y: 0.0024796}
+  m_AnchoredPosition: {x: 0.000015259, y: 0.0000076761935}
   m_SizeDelta: {x: 1080, y: 607.51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &39532871
@@ -4346,6 +4346,8 @@ MonoBehaviour:
   combineCardImageSelected2: {fileID: 12014101}
   combineCardProducedImage: {fileID: 1741688251}
   combineCardPanel: {fileID: 302528128}
+  BackyardMapPanel: {fileID: 0}
+  machineCardPanel: {fileID: 0}
   activePanel: 3
   allCardDetailList:
   - {fileID: 11400000, guid: e4db1f246cb6ebb4d9b7a1ab3ca702ca, type: 2}

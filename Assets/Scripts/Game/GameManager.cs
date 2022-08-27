@@ -31,7 +31,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     public GameObject combineCardProducedImage;
     public GameObject combineCardPanel;
 
-    public GameObject mapCardPanel;
+    public GameObject BackyardMapPanel;
     public GameObject machineCardPanel;
     
     // Keeps track which panel open
@@ -71,5 +71,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
         hiddenCardPanel.SetActive(false);
         unlockCardPanel.SetActive(false);
         combineCardPanel.SetActive(false);
+        machineCardPanel.SetActive(false);
+        BackyardMapPanel.SetActive(false);
     }
 }

@@ -774,6 +774,7 @@ GameObject:
   - component: {fileID: 212177642}
   - component: {fileID: 212177644}
   - component: {fileID: 212177643}
+  - component: {fileID: 212177645}
   m_Layer: 5
   m_Name: Map Card
   m_TagString: Untagged
@@ -836,6 +837,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 212177641}
   m_CullTransparentMesh: 1
+--- !u!114 &212177645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212177641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de22869c52022a40b42d8fc2b72fa3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &218592139
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,7 +866,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &218592140
 RectTransform:
   m_ObjectHideFlags: 0
@@ -872,12 +885,12 @@ RectTransform:
   - {fileID: 136597540}
   - {fileID: 849329173}
   m_Father: {fileID: 1343067584}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.029687501, y: 0.21637037}
   m_AnchorMax: {x: 0.53175014, y: 0.8258149}
-  m_AnchoredPosition: {x: -4, y: -8}
-  m_SizeDelta: {x: 3, y: -8}
+  m_AnchoredPosition: {x: -4, y: 0}
+  m_SizeDelta: {x: 3, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &218592141
 MonoBehaviour:
@@ -1489,6 +1502,7 @@ GameObject:
   - component: {fileID: 408917498}
   - component: {fileID: 408917500}
   - component: {fileID: 408917499}
+  - component: {fileID: 408917501}
   m_Layer: 5
   m_Name: CombineCard
   m_TagString: Untagged
@@ -1551,6 +1565,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408917497}
   m_CullTransparentMesh: 1
+--- !u!114 &408917501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408917497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de22869c52022a40b42d8fc2b72fa3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &409265234
 GameObject:
   m_ObjectHideFlags: 0
@@ -1879,7 +1905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 453277583}
   m_Layer: 0
-  m_Name: Small Red Card [541:4196]
+  m_Name: Small red card
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1945,7 +1971,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 57, y: -196}
+  m_AnchoredPosition: {x: 57, y: -196.11993}
   m_SizeDelta: {x: 967, y: 650}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &498644827
@@ -2341,6 +2367,7 @@ GameObject:
   - component: {fileID: 615813626}
   - component: {fileID: 615813628}
   - component: {fileID: 615813627}
+  - component: {fileID: 615813629}
   m_Layer: 5
   m_Name: RawImage
   m_TagString: Untagged
@@ -2403,6 +2430,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615813625}
   m_CullTransparentMesh: 1
+--- !u!114 &615813629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615813625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de22869c52022a40b42d8fc2b72fa3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &622918141
 GameObject:
   m_ObjectHideFlags: 0
@@ -2820,7 +2859,7 @@ GameObject:
   - component: {fileID: 755763170}
   - component: {fileID: 755763169}
   m_Layer: 0
-  m_Name: Rectangle 59 [541:4195]
+  m_Name: Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3318,6 +3357,7 @@ GameObject:
   - component: {fileID: 915111638}
   - component: {fileID: 915111640}
   - component: {fileID: 915111639}
+  - component: {fileID: 915111641}
   m_Layer: 5
   m_Name: Unlock Card
   m_TagString: Untagged
@@ -3380,6 +3420,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 915111637}
   m_CullTransparentMesh: 1
+--- !u!114 &915111641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915111637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de22869c52022a40b42d8fc2b72fa3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &920997352
 GameObject:
   m_ObjectHideFlags: 0
@@ -3719,7 +3771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 986717746}
   m_Layer: 0
-  m_Name: Small Blue Card [541:4191]
+  m_Name: Small Blue Card
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3988,7 +4040,7 @@ GameObject:
   - component: {fileID: 1070673407}
   - component: {fileID: 1070673406}
   m_Layer: 0
-  m_Name: RawImage
+  m_Name: Plus icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4097,6 +4149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1103533708}
   - component: {fileID: 1103533709}
+  - component: {fileID: 1103533710}
   m_Layer: 0
   m_Name: Combine Button
   m_TagString: Untagged
@@ -4123,7 +4176,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 729.4492, y: -524.71893}
+  m_AnchoredPosition: {x: 700, y: -531}
   m_SizeDelta: {x: 222.01172, y: 68.28107}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1103533709
@@ -4140,6 +4193,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: 0, y: 0, z: 0, w: 0}
   m_Softness: {x: 0, y: 0}
+--- !u!114 &1103533710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103533707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de22869c52022a40b42d8fc2b72fa3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1136687462
 GameObject:
   m_ObjectHideFlags: 0
@@ -4804,7 +4869,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 737, y: -135}
+  m_AnchoredPosition: {x: 708.51, y: -135}
   m_SizeDelta: {x: 205, y: 365}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1328427810
@@ -5019,9 +5084,9 @@ RectTransform:
   - {fileID: 363188214}
   - {fileID: 1986969968}
   - {fileID: 498644826}
+  - {fileID: 218592140}
   - {fileID: 2087119756}
   - {fileID: 1790555562}
-  - {fileID: 218592140}
   - {fileID: 514151069}
   - {fileID: 355854132}
   m_Father: {fileID: 0}
@@ -5134,6 +5199,7 @@ GameObject:
   - component: {fileID: 1492316170}
   - component: {fileID: 1492316169}
   - component: {fileID: 1492316168}
+  - component: {fileID: 1492316171}
   m_Layer: 5
   m_Name: HiddenCard
   m_TagString: Untagged
@@ -5240,6 +5306,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1492316166}
   m_CullTransparentMesh: 1
+--- !u!114 &1492316171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492316166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de22869c52022a40b42d8fc2b72fa3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1531920072
 GameObject:
   m_ObjectHideFlags: 0
@@ -5252,7 +5330,7 @@ GameObject:
   - component: {fileID: 1531920075}
   - component: {fileID: 1531920074}
   m_Layer: 0
-  m_Name: Rectangle 60 [541:4197]
+  m_Name: small red card
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6073,7 +6151,7 @@ GameObject:
   - component: {fileID: 1776624560}
   - component: {fileID: 1776624559}
   m_Layer: 0
-  m_Name: Rectangle 61 [541:4198]
+  m_Name: small empty card
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6823,7 +6901,7 @@ GameObject:
   - component: {fileID: 1914720405}
   - component: {fileID: 1914720404}
   m_Layer: 0
-  m_Name: Rectangle 58 [541:4190]
+  m_Name: Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
