@@ -2216,6 +2216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputText: {fileID: 1657209274}
+  cardDetail: {fileID: 11400000, guid: 4b90ccf2ef061a349be4aea2d74c0fd9, type: 2}
 --- !u!1 &514151068
 GameObject:
   m_ObjectHideFlags: 0
@@ -5387,7 +5388,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1246350073
 RectTransform:
   m_ObjectHideFlags: 0

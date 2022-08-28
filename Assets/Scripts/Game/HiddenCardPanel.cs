@@ -7,6 +7,7 @@ using TMPro;
 public class HiddenCardPanel : MonoBehaviour
 {
     public TMP_InputField inputText;
+    public CardDetailSO cardDetail;
 
     private void OnEnable()
     {
@@ -34,6 +35,9 @@ public class HiddenCardPanel : MonoBehaviour
         else
         {
             Debug.Log("ga nemu");
+            var cardPanel = Instantiate(GameResource.Instance.detailPanel, GameManager.Instance.panelTransform);
+            cardPanel.transform.GetChild(0).transform.GetChild(1).GetComponent<Image>().sprite = cardDetail.cardSprite;
+            cardPanel.transform.GetChild(0).transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = cardDetail.cardDescription;
         }
     }
 
