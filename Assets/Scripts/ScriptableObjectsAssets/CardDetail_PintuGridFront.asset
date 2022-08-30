@@ -15,6 +15,7 @@ MonoBehaviour:
   cardSprite: {fileID: 21300000, guid: 4effb1cf2edab834c9841594d5f59688, type: 3}
   cardDescription: Ini kartu pintu grid depan
   cardID: 97
+  cardType: 3
   combineCardsProducesID: 0
   hiddenCardID: 0
   unlockCardAnswer: 0

@@ -15,7 +15,7 @@ public class HiddenCardPanel : MonoBehaviour
 
     public void HiddenCardSubmit()
     {
-        if(GameManager.Instance.selectedCard.hiddenCardID == inputText.text && inputText.text != "0")
+        if(GameManager.Instance.selectedCardHidden.hiddenCardID == inputText.text && inputText.text != "0")
         {
             if(GameManager.Instance.GetCardByID(inputText.text) != null)
             {
