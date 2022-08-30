@@ -2524,8 +2524,8 @@ MonoBehaviour:
   hiddenCardPanel: {fileID: 0}
   unlockCardImageSelected: {fileID: 0}
   unlockCardPanel: {fileID: 0}
-  combineCardImageSelected1: {fileID: 2092597959}
-  combineCardImageSelected2: {fileID: 994279459}
+  combineCardImageSelected1: {fileID: 705787432}
+  combineCardImageSelected2: {fileID: 90077849}
   combineCardProducedImage: {fileID: 1748833327}
   combineCardPanel: {fileID: 82121063}
   BackyardMapPanel: {fileID: 0}
