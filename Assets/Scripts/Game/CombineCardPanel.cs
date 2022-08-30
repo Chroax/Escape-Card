@@ -40,7 +40,7 @@ public class CombineCardPanel : MonoBehaviour
         }
         else
         {
-            Debug.Log("tidak combine");
+            Debug.Log("PIPIP KENAK PENALTY!!!!");
         }
     }
 

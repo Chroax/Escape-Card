@@ -28,19 +28,22 @@ public class CardChoice : MonoBehaviour
         }
         else
         {
-            if(GameManager.Instance.choiceCombineCard1 && !GameManager.Instance.choiceCombineCard2)
+            if(GameManager.Instance.choiceCombineCard1 && !GameManager.Instance.choiceCombineCard2 && cardDetail.cardColor=="Red")
             {
                 GameManager.Instance.selectedCombineCard1 = cardDetail;
                 GameManager.Instance.panelChoiceCard.SetActive(false);
 
                 GameManager.Instance.combineCardImageSelected1.GetComponent<Image>().sprite = cardDetail.cardSprite;
             }
-            else
+            else if(!GameManager.Instance.choiceCombineCard1 && GameManager.Instance.choiceCombineCard2 && cardDetail.cardColor =="Blue")
             {
                 GameManager.Instance.selectedCombineCard2 = cardDetail;
                 GameManager.Instance.panelChoiceCard.SetActive(false);
 
                 GameManager.Instance.combineCardImageSelected2.GetComponent<Image>().sprite = cardDetail.cardSprite;
+            }else{
+                Debug.Log("Warna Kartu Tidak Sesuai!");
+                GameManager.Instance.panelChoiceCard.SetActive(false);
             }
         }
         

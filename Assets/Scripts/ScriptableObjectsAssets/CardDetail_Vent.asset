@@ -15,6 +15,7 @@ MonoBehaviour:
   cardSprite: {fileID: 21300000, guid: 73e7f5c2dc6d8bf47a22b922e25124fe, type: 3}
   cardDescription: Ini kartu vent
   cardID: 49
+  cardColor: Red
   combineCardsProducesID: 72
   hiddenCardID: 0
   unlockCardAnswer: 0
