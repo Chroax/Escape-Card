@@ -10,7 +10,7 @@ public class CardDetailSO : ScriptableObject
     public Sprite cardSprite;
     public string cardDescription;
     public string cardID;
-    public string cardColor;
+    public CardType cardType;
 
     // Combine Cards detail, misal card tidak bisa dicombine, isi value dengan 0
     public string combineCardsProducesID;

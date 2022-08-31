@@ -8,3 +8,13 @@ public enum ActivePanel
     main,
     none
 }
+
+public enum CardType
+{
+    red, 
+    yellow, 
+    green, 
+    blue, 
+    grey, 
+    none
+}
