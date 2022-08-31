@@ -6,15 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c2f0232a-f7bb-45d4-8951-2b06832509b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Escape-card/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Escape-card/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HintPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HintPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/HintPanel 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/HintPanel 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Panel Option.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Panel Option.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game Layout.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game Layout.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameLayoutKeyisa.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameLayoutKeyisa.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/HintPanelTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HintPanelTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Enum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Enum.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661561137106</updated>
       <workItem from="1661561145935" duration="2511000" />
+      <workItem from="1661858457030" duration="1114000" />
     </task>
     <servers />
   </component>
