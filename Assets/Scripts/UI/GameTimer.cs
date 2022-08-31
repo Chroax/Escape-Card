@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GameTimer : MonoBehaviour
 {
     public Text gameTimerText;
-    float gameTimer = 7200f;
+    [SerializeField]float gameTimer = 7200f;
     public GameObject timeOut;
 
     void Update()
