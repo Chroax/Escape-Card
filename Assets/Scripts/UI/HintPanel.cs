@@ -23,12 +23,16 @@ public class HintPanel : MonoBehaviour
 
     public void CardHintShow()
     {
+        if (cardHintText.text== "default")
+        {
+            return;
+        }
         cardHint.SetActive(true);
     }
 
     public void GetSetCardHintCost()
     {
-
+        
     }
 
     public void GetSetCardHintText()

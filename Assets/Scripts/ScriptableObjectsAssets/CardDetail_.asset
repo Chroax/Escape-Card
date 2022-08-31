@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4887ea061f6e49542958988cfe021d64, type: 3}
+  m_Name: CardDetail_
+  m_EditorClassIdentifier: 
+  cardSprite: {fileID: 21300000, guid: ae05985167d5edb41a69c805b95358be, type: 3}
+  cardDescription: Kartu test branch Billy
+  cardID: 0
+  cardHint: "\u5730\u306B\u306A\u3044\u3089 wakarimasen"
+  combineCardsProducesID: 
+  hiddenCardID: 
+  unlockCardAnswer: 
+  unlockCardID: 
